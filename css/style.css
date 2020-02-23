@@ -19,6 +19,8 @@ body {
     min-height: 100vh;
 }
 
+
+/***** LOGO Y BARRA DE NAVEGACIÓN *****/
 .main-header {
     display: flex;
     flex-direction: row;
@@ -44,6 +46,35 @@ nav > ul {
 nav ul li:hover {
     color: rgb(164,110,36);
 }
+/********************/
+
+
+.slider {
+   width: 100; 
+}
+
+/***** SECTION TIPOS DE COMIDA *****/
+.tiposComida {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center; 
+    margin-top: 30px;
+    width: 100%;
+    height: 50%; 
+}
+
+.tiposComida img {
+    width: 44vw;
+    height: 44vh;
+} 
+
+.tiposComida img:nth-child(2)  {
+    margin-left: 30px;
+}
+
+
 
 
 

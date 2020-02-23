@@ -11,6 +11,10 @@
     height: auto;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 /***********************/
 
 body {
@@ -36,11 +40,9 @@ body {
 nav > ul {
     width: 50vw;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-right: 30px;
-    flex-grow: 1;
 }
 
 nav ul li:hover {
@@ -52,6 +54,7 @@ nav ul li:hover {
 .slider {
    width: 100; 
 }
+
 
 /***** SECTION TIPOS DE COMIDA *****/
 .tiposComida {
@@ -73,7 +76,44 @@ nav ul li:hover {
 .tiposComida img:nth-child(2)  {
     margin-left: 30px;
 }
+/********************/
 
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.nav-productos {
+    margin-top: 40px;
+    width: 31vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-productos ul {
+    width: 31vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav-productos ul li {
+    border: 1px solid rgb(170, 164, 164);
+    padding: 12px 25px;
+}
+
+.nav-productos ul li:hover {
+    background-color: rgb(164,110,36);
+    color: rgb(255, 255, 255);
+}
+
+.nav-productos ul li:nth-child(1) {
+    background-color: rgb(164,110,36);
+    color: rgb(255, 255, 255);
+}
 
 
 

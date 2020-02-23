@@ -4,3 +4,46 @@
     text-decoration: none;
     list-style: none;
 }
+
+/* Clases globales */
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/***********************/
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+nav > ul {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    flex-grow: 1;
+}
+
+nav ul li:hover {
+    color: rgb(164,110,36);
+}
+
+
+

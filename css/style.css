@@ -15,6 +15,11 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    color: rgb(164,110,36);
+    font-size: 30px;
+}
+
 .centradoTxt {
     text-align: center;
 }
@@ -88,6 +93,7 @@ nav ul li:hover {
 /***** Productos *****/
 .productos {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     margin-top: 90px;
@@ -95,15 +101,16 @@ nav ul li:hover {
 
 .nav-productos {
     margin-top: 40px;
-    width: 31vw;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .nav-productos ul {
-    width: 31vw;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -111,6 +118,10 @@ nav ul li:hover {
 .nav-productos ul li {
     border: 1px solid rgb(170, 164, 164);
     padding: 12px 25px;
+}
+
+.nav-productos ul li:nth-child(2), .nav-productos ul li:nth-child(3) {
+    margin-left: 10px;
 }
 
 .nav-productos ul li:hover {
@@ -133,10 +144,12 @@ nav ul li:hover {
 .card-producto {
     display: flex;
     flex-direction: column;
+    width: 20vw;
 }
 
 .info-producto {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     box-shadow: 2px 2px 2px rgb(204, 199, 199);
 }
@@ -155,8 +168,69 @@ nav ul li:hover {
     background-color: red;
     width: 100%;
 }
+
+.ver-productos button{
+    margin-top: 35px;
+    background-color: rgb(164,110,36);
+    border: none;
+    padding: 15px 40px;
+    color: rgb(255, 255, 255);
+}
+
+.ver-productos button:hover {
+    background-color: rgb(0, 0, 0);
+}
 /********************/
 
+
+/***** Comentarios *****/
+.container-comentarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+} 
+
+.comentario {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 80px 10px;
+    border: 2px solid rgb(164,110,36);
+    width: 90%;
+    height: 200px;
+}
+
+.autor-comentario {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 100px;
+}
+
+.datos-autor {
+    margin-left: 30px;
+}
+
+.datos-autor p {
+    margin-top: 10px;
+}
+
+.comentario p span {
+    font-size: 20px;
+}
+
+.cita {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100px;
+    margin-left: 100px;
+    margin-right: 30px;
+}
+/********************/
 
 
 

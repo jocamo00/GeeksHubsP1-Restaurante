@@ -170,7 +170,7 @@ nav ul li:hover {
 }
 
 .ver-productos button{
-    margin-top: 35px;
+    margin-top: 45px;
     background-color: rgb(164,110,36);
     border: none;
     padding: 15px 40px;
@@ -238,8 +238,62 @@ nav ul li:hover {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    
+}
+/********************/
 
+
+/***** Footer *****/
+footer {
+    background-color: rgb(164,110,36);
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.suscribir {
+    padding-top: 25px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.suscribir div p {
+    color: rgb(255, 255, 255);
+}
+
+.suscribir div:nth-child(2) button {
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+.suscribir div:nth-child(2) input {
+    height: 25px;
+    width: 300px;
+}
+
+.copyright {
+    margin-top: 30px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.copyright p {
+    font-size: 12px;
 }
 /********************/
 

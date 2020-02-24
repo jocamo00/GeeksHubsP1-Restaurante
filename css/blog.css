@@ -116,6 +116,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 755px;
 }
 .categorias {
     width: 95%;
@@ -140,6 +141,25 @@ body {
     padding-top: 10px;
     padding-bottom: 20px;
 }
+/***************/
+
+
+/***** Imagen Aside *****/
+.img-aside {
+    margin-top: 25px;
+    width: 95%;
+    
+
+}
+
+.img {
+    width: 100%;
+}
+/* .img-aside img{
+    background-color: red;
+    width: 100%;
+
+} */
 /***************/
 
 

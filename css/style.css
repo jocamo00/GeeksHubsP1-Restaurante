@@ -233,6 +233,17 @@ nav ul li:hover {
 /********************/
 
 
+/***** Logos marcas *****/
+.logos {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+
+}
+/********************/
+
+
 
 
 

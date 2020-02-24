@@ -32,6 +32,7 @@
 
 .btnStarted:hover {
     color: rgb(164,110,36);
+    cursor: pointer;
 }
 
 .btnStarted {

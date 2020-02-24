@@ -10,6 +10,12 @@
     height: auto;
 }
 
+.linea {
+    width: 100%;
+    height: 5px;
+    background-color: rgb(164,110,36);
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -26,7 +32,7 @@ body {
 
 
 .aside {
-    margin-top: 30px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     width: 25%;
@@ -34,6 +40,7 @@ body {
 }
 
 .container-articulo {
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,9 +105,10 @@ body {
 
 .btnArticulo:hover {
     background-color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 
-.linea {
+.linea-articulo {
     background-color: rgb(164,110,36);
     width: 50%;
     height: 1px;
@@ -114,10 +122,9 @@ body {
 .aside {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 755px;
 }
+
 .categorias {
     width: 95%;
     border: 1px solid rgb(209, 202, 202);  
@@ -140,6 +147,11 @@ body {
     color: rgb(110, 104, 104);
     padding-top: 10px;
     padding-bottom: 20px;
+} 
+
+.categorias ul li:hover {
+    color: rgb(164,110,36);
+    cursor: pointer;
 }
 /***************/
 
@@ -147,6 +159,7 @@ body {
 /***** Imagen Aside *****/
 .img-aside {
     margin-top: 25px;
+    margin-bottom: 25px;
     width: 95%;
     
 
@@ -154,12 +167,12 @@ body {
 
 .img {
     width: 100%;
-}
-/* .img-aside img{
-    background-color: red;
-    width: 100%;
-
-} */
+} 
 /***************/
+
+
+/***** Aside Información *****/
+/***************/
+
 
 
